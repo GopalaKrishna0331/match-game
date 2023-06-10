@@ -1,0 +1,30 @@
+.button-container {
+  margin: 8px;
+}
+
+.button {
+  height: 40px;
+  width: 140px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.match-button {
+  border-bottom: solid 3px #fec653;
+  color: #fec653;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .button-container {
+    margin: 6px;
+  }
+  .button {
+    height: 40px;
+    width: 120px;
+  }
+}

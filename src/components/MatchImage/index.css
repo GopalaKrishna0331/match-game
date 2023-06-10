@@ -1,0 +1,11 @@
+.img {
+  width: 100%;
+}
+
+.image-button {
+  background-color: transparent;
+  border: none;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+}
